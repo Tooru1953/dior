@@ -21,3 +21,9 @@ const swiperAbout = new Swiper(".about__slider", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+document.querySelectorAll(".accardeon__triger").forEach((item) => {
+  item.addEventListener("click", () => {
+    item.parentNode.classList.toggle("accardeon__item--active");
+  });
+});
