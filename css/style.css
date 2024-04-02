@@ -277,3 +277,24 @@ body {
 .accardeon__item--active .accardeon__content {
   display: block;
 }
+
+.products {
+  margin-bottom: 150px;
+}
+
+.products__inner {
+}
+.products__title {
+}
+.products__items {
+}
+.products__item {
+}
+.products__item-step {
+}
+.products__item-img {
+}
+.products__item-name {
+}
+.products__item-price {
+}
