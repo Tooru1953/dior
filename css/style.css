@@ -17,6 +17,13 @@ ul {
   list-style: none;
 }
 
+button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+}
+
 .container {
   max-width: 1220px;
   padding-left: 10px;
@@ -334,4 +341,21 @@ body {
   text-transform: uppercase;
   font-family: "Playfair Display", serif;
   font-style: italic;
+}
+
+.video {
+  margin-bottom: 150px;
+}
+
+.video__box {
+  margin-left: auto;
+  max-width: 997px;
+  min-height: 600px;
+  background-image: url(../images/video-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
